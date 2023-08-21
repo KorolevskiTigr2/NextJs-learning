@@ -15,10 +15,10 @@ function App() {
         <Todo text="Junior"/>
         <Todo text="Midle"/>
         <Todo text="Senior"/> */}
-{/* ---------------------React Route--------------------------- */}
-{/* <Routes>
-   <Route path="/all-meetups"> <AllMeetupsPage /></Route>
-</Routes> */}
+        {/* ---------------------React Route--------------------------- */}
+        {/* <Routes>
+          <Route path="/all-meetups"> <AllMeetupsPage /></Route>
+        </Routes> */}
           <MainNavigation/>
           <Routes>
             <Route path="/" element={<AllMeetupsPage />}></Route>
