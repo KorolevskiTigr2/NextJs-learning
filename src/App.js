@@ -1,10 +1,11 @@
 import './index.css';
 // import Todo from './Todo';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 import AllMeetupsPage from './pages/AllMeetups';
 import FavouritePage from './pages/Favourite';
 import NewMeetup from './pages/NewMeetup';
+import MainNavigation from './components/layout/MainNavigation';
 
 
 function App() {
@@ -18,14 +19,12 @@ function App() {
 {/* <Routes>
    <Route path="/all-meetups"> <AllMeetupsPage /></Route>
 </Routes> */}
-
-    <Routes>
-      <Route path="/" element={<AllMeetupsPage />}></Route>
-    </Routes>
-
-
-
-
+          <MainNavigation/>
+          <Routes>
+            <Route path="/" element={<AllMeetupsPage />}></Route>
+            <Route path="/favourites" element={<FavouritePage />}></Route>
+            <Route path="/new-meetup" element={<NewMeetup />}></Route>
+          </Routes>
      </div>
   );
 }
