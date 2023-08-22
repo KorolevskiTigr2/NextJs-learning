@@ -4,7 +4,7 @@ const DUMMY_DATE = [
   {
     id: 'm1',
     title: 'This is a first meetup',
-    image: 'https://www.pexels.com/photo/view-of-street-from-a-glass-window-531880/',
+    image: '',
     address: 'Dom Pyshkina',
     description: 
       'This is a first, amazing meetup'
