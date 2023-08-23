@@ -11,14 +11,6 @@ import MainNavigation from './components/layout/MainNavigation';
 function App() {
   return (
     <div>
-        {/* <h1>My Todos</h1>
-        <Todo text="Junior"/>
-        <Todo text="Midle"/>
-        <Todo text="Senior"/> */}
-        {/* ---------------------React Route--------------------------- */}
-        {/* <Routes>
-          <Route path="/all-meetups"> <AllMeetupsPage /></Route>
-        </Routes> */}
           <MainNavigation/>
           <Routes>
             <Route path="/" element={<AllMeetupsPage />}></Route>
