@@ -22,7 +22,7 @@ const DUMMY_DATE = [
  
  function AllMeetupsPage() {
   return ( 
-   <section>
+    <section>
       <MeetupList meetups={DUMMY_DATE}/>
     </section>
   )
